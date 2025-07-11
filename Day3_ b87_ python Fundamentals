@@ -1,0 +1,171 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "8a1eb0a1-edbd-4105-9dec-53a25bdb5c6a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dinesh kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "firstname = 'dinesh' \n",
+    "\n",
+    "lastname = 'kumar' \n",
+    "\n",
+    "fullname = f\"{firstname} {lastname}\"\n",
+    "\n",
+    "print(fullname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ffd7ca36-fdf4-4ff7-9cf4-b47ce45367e3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "adding whitespaces to strings"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "4f9132d7-c154-4ee7-b98e-72e9c3fb85ba",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "favourite language : \n",
+      "python\n",
+      "c\n",
+      "c++\n",
+      "java\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"favourite language : \\npython\\nc\\nc++\\njava\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "41365358-a80f-4fc0-98e8-ac2eb5363dd6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "favourite langauage : \n",
+      "\tpython\n",
+      "\tc\n",
+      "\tc++\n",
+      "\tjava\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"favourite langauage : \\n\\tpython\\n\\tc\\n\\tc++\\n\\tjava\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "897527b5-e433-4250-88e3-8668246ce703",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "  python\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"  python\"\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f4f18e51-12ba-45aa-8f39-ba65d44b73c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'python'"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.lstrip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "3e74b6ec-09d7-4be5-9681-008415c69eb7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# zen of python : Guiding Principles"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "fc0e22f2-e882-4eb1-b995-3176b616a673",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import this "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "11d35b04-055d-49f0-aaef-98a40a4f15ae",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
